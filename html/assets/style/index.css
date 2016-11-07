@@ -1,0 +1,191 @@
+html,body{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+.sp{
+    font-family: 'Josefin Slab', serif!important;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+input,button{
+	display: block;
+	width: 100%;
+	padding: 10px 15px;
+	border-radius: 0;
+	border: 1px solid rgba(0,0,0,.1);
+}
+
+input:focus{
+	border: 1px solid rgba(0,0,0,0.3);
+}
+
+/* Form fields */
+
+.field{
+	display: block;
+	margin-bottom: 10px;
+}
+
+
+
+/* header */
+#header{
+	display: inline-block;
+	width: 100%;
+	padding: 5px 10px;
+	/*background: rgba(0,0,0,.1);*/
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+
+a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+.header-wrap{
+	max-width: 1000px;
+	margin: 0 auto;
+	width: 100%;
+	/*display: inline-block;*/
+}
+
+.logo{
+	float: left;
+	padding:  5px;
+}
+.nav{
+	float: right;
+}
+
+.nav a{
+	display: inline-block;
+	padding: 5px 15px;
+	border-bottom: 2px solid rgba(0,0,0,0);
+	color: #233423;
+	font-size: 14px;
+	font-weight: 200;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.nav a:hover{
+	border-bottom: 2px solid #4fc1e9;
+}
+
+.max-wrap{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+/* sections */
+.section{
+	display: block;
+	width: 100%;
+}
+
+section#s1{
+	/*background-image: url('../images/download.jpeg');*/
+	background-size: cover;
+	display: inline-block;
+	width: 100%;
+}
+
+.w50{ width: 50%;}
+.w40{ width: 40%;}
+.w60{ width: 60%;}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.btn{
+	display: block;
+	width: 100%;
+	padding: 8px 10px;
+	text-align: center;
+	border: 1px solid rgba(0,0,0,.1);
+	font-weight: bold;
+}
+
+.btn-1{
+	background: #4fc1e9;
+	color: #fff;
+}
+
+
+#s1 .right.banner{
+	margin-top: 50px
+}
+
+#s1 .left.banner{
+	margin-top: 50px;
+}
+
+
+.register{
+	max-width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+ul,li{
+	list-style-type: none;
+	display: block;
+	padding: 0;
+	margin: 0;	
+}
+
+#model-cred-m{
+	float: right;
+}
+
+#transaction-list{
+	width: 60%;
+	float: left;
+}
+
+#transaction-list thead, #transaction-list tbody{
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	padding: 5px 10px;
+}
+
+tbody tr{
+	color: #777;
+	display: block;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	padding: 10px 0;
+}
+
+#call{
+	width: 40%;
+	padding: 0 10px;
+	float: right;
+}
+
+#modal_cred{
+	/*float: right;*/
+	width: 200px
+}
+
+#badge div{
+	font-weight: 900;
+	font-size: 30px;
+	border: 1px solid rgba(0,0,0,0.1);
+	padding: 10px 0;
+	display: block;
+	width: 100%;
+	text-align: center;
+	text-transform: capitalize;
+}

@@ -1,0 +1,6 @@
+{
+    "name": "root/html",
+    "require": {
+	"plivo/plivo-php" : "^1.1"
+}
+}
